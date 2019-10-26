@@ -1,0 +1,40 @@
+.summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.summary-card {
+  background-color: grey;
+  width: calc(100% / 3 - 16px);
+  padding: 16px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary-card .title {
+  text-transform: uppercase;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.font-size-normal {
+  font-size: 1rem;
+}
+
+.font-size-large {
+  font-size: 1.5rem;
+}
+
+.font-size-xlarge {
+  font-size: 3rem;
+}
