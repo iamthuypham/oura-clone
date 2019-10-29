@@ -1,0 +1,5 @@
+{
+  "env": {
+    "CLIENT_ID": "@client_id"
+  }
+}

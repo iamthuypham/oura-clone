@@ -38,7 +38,7 @@ const App = () => {
   }, [isAuthorized])
   
   const handleAuthorize = () => {
-    window.location.replace(`https://cloud.ouraring.com/oauth/authorize?response_type=code&client_id=${process.env.REACT_APP_CLIENT_ID}`)
+    window.location.replace(`https://cloud.ouraring.com/oauth/authorize?response_type=code&client_id=WXYFWZ6CTJG3XTVE`)
   }
 
   const getCookie = (name) => {
